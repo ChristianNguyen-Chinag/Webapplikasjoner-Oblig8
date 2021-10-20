@@ -1,0 +1,65 @@
+{
+"questions":
+  [
+    {
+      "title": "What is Jest?",
+      "answers": [
+        {"answer": "A prank done through code review."},
+        {
+          "answer": "Framework used for testing.",
+          "correct": true
+        },
+        {"answer": "Library used for testing."},
+        {"answer": "Plugin used for testing."}
+      ],
+      "helper": {
+        "text": "It's a framework giving us access to various tools and functions related to testing."
+      }
+    },
+    {
+      "title": "I want to create an user before each test in a describe block. Which function do I use?",
+      "answers": [
+        {"answer": "after"},
+        {"answer": "before"},
+        {"answer": "afterEach"},
+        {
+          "answer": "beforeEach",
+          "correct": true
+        }
+      ],
+      "helper": {
+        "text": "All commands within a beforeEach function will be run before all other tests in the describe blocks."
+      }
+    },
+    {
+      "title": "What are 'Fakes' in a testing environment?",
+      "answers": [
+        {"answer": "Objects made during testing."},
+        {
+          "answer": "A simpler implementation of a complex module for use in tests.",
+          "correct": true
+        },
+        {"answer": "Unauthorised developers."},
+        {"answer": "A test function that logs all calls to it during tests."}
+      ],
+      "helper": {
+        "text": "An example of a 'Fakes' is a fake UserService that saves information in a map instead of a database."
+      }
+    },
+    {
+      "title": "What does 'msw' stand for?",
+      "answers": [
+        {"answer": "McDonald Service Window"},
+        {"answer": "Mock Server Window"},
+        {"answer": "MicroSoft Word"},
+        {
+          "answer": "Mock Service Worker",
+          "correct": true
+        }
+      ],
+      "helper": {
+        "text": "Mock Service Worker is a library that can imitate an API server."
+      }
+    }
+  ]
+}
